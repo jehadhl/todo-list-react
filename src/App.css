@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+body{
+  background-color: #f2f2f3 !important;
+}
+
+.header{
+  background-color: #0f2e38;
+  height: 200px;
+  width: 100%;
+  padding-top:50px;
+}
+
+
+
+h3{
+  
+  font-size: 50px  !important;
+  color: #ffffff;
+  font-weight: 700 !important;
+}
+
+
+.btn{
+  background-color: #2b2b2b !important;
+  border: none;
+  padding: 10px  20px !important;
+  color: #ffffff !important;
+ 
+}
+
+.btn-2{
+  background-color: #0f2e38  !important;
+ border: none !important;
+}
+
+
+.btn-3{
+  background-color: #757575 !important;
+}
+
+.card-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.p {
+  max-width: auto !important;
+}
+
+.card-wrapper{
+  width: 80%; 
+  height: 200px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #ffffff; 
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 130px;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container{
+  max-width: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3% ;
+  grid-row-gap: 3rem;
+  background-color: #f2f2f3;
+  padding : 40px 30px;
+}
+
+@media (max-width:1200px){
+  .card-wrapper{
+  width: 85%;
+    
+  }
+
+  .task-container{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding : 40px 30px;
+  }
+}
+
+
+
+
+@media (max-width:990px){
+  .card-wrapper{
+  width: 85%;
+    
+  }
+
+  .task-container{
+    grid-template-columns: 50% 50%;
+    padding : 40px 20px;
+  }
+}
+
+
+@media (max-width:600px){
+  .card-wrapper{
+    width: 100%;
+    max-width: 100%;
+    
+  }
+
+  .task-container{
+    grid-template-columns: 100% ;
+    padding : 40px 50px;
+  }
+}
+
+
